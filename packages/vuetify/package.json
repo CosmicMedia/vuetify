@@ -1,5 +1,5 @@
 {
-  "name": "vuetify",
+  "name": "@cosmicmedia/vuetify",
   "description": "Vue Material Component Framework",
   "version": "3.1.15",
   "author": {
@@ -10,7 +10,7 @@
   "homepage": "https://vuetifyjs.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuetifyjs/vuetify.git",
+    "url": "git+https://github.com/CosmicMedia/vuetify.git",
     "directory": "packages/vuetify"
   },
   "keywords": [

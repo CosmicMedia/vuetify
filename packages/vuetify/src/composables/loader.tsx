@@ -1,6 +1,3 @@
-// Components
-import { VProgressLinear } from '@/components/VProgressLinear'
-
 // Utilities
 import { computed } from 'vue'
 import { getCurrentInstanceName, propsFactory } from '@/util'
@@ -49,14 +46,7 @@ export function LoaderSlot (
       { slots.default?.({
         color: props.color,
         isActive: props.active,
-      } as LoaderSlotProps) || (
-        <VProgressLinear
-          active={ props.active }
-          color={ props.color }
-          height="2"
-          indeterminate
-        />
-      )}
+      } as LoaderSlotProps) || (<div></div>)}
     </div>
   )
 }

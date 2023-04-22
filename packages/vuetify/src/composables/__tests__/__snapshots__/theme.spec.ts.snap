@@ -249,9 +249,6 @@ exports[`createTheme should create style element 1`] = `
     .border-primary-darken-1 {
       --v-border-color: var(--v-theme-primary-darken-1);
     }
-    .text-secondary {
-      color: rgb(var(--v-theme-secondary)) !important;
-    }
     .border-secondary {
       --v-border-color: var(--v-theme-secondary);
     }

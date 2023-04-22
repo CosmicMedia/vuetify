@@ -1,9 +1,6 @@
 // Styles
 import './VInput.sass'
 
-// Components
-import { VMessages } from '@/components/VMessages'
-
 // Composables
 import { IconValue } from '@/composables/icons'
 import { makeDensityProps, useDensity } from '@/composables/density'
@@ -171,13 +168,6 @@ export const VInput = genericComponent<VInputSlots>()({
 
           { hasDetails && (
             <div class="v-input__details">
-              <VMessages
-                id={ messagesId.value }
-                active={ hasMessages }
-                messages={ messages.value }
-                v-slots={{ message: slots.message }}
-              />
-
               { slots.details?.(slotProps.value) }
             </div>
           )}
